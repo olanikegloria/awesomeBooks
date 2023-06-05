@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://olanikegloria.github.io/awesome-books/)
+- [Live Demo Link](https://olanikegloria.github.io/awesomeBooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
