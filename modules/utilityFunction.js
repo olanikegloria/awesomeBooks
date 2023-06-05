@@ -47,7 +47,7 @@ export const loadContacts = (contactInstanceFromContact) => {
   contactWrapper.innerHTML = contactInstanceFromContact.profile.map((contact) => loopingContacts(contact)).join('');
 };
 
-export function addBookButton(bookInstanceFromBookStore) {
+export const addBookButton = (bookInstanceFromBookStore) => {
   const titleInput = document.querySelector('#title-input');
   const authorInput = document.querySelector('#author-input');
   const addButton = document.querySelector('#add-book-button');
@@ -71,7 +71,7 @@ export function addBookButton(bookInstanceFromBookStore) {
     authorInput.value = '';
     localStorage.setItem('bookCollection', JSON.stringify(bookInstanceFromBookStore.store));
   });
-}
+};
 
 export const spaExperience = () => {
   const navLinks = document.querySelectorAll('.links');
