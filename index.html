@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="index.js"></script>
+    <script src="https://kit.fontawesome.com/d19de2aa55.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo text-right"><span><i class="fab fa-buffer"></i></span> Awesome Book</div>
+        <ul class="links-container">
+          <li class="links" data-page="list">List</li>
+          <li class="links" data-page="add-new">Add New</li>
+          <li class="links" data-page="contacts">Contacts</li>
+        </ul>
+        <div class="time text-left">20 <span class="blinker">:</span> 30</div>
+      </nav>
+    </header>
+    <main>
+      <section class="list-book-section" data-visible="true">
+        <h1 class="section-title text-center">Awesome Books</h1>
+        <div class="books-container"></div>
+      </section>
+      <section class="new-book-section" data-visible="false">
+        <h1 class="section-title text-center">Add a new book</h1>
+        <form class="new-book-form">
+          <input id="title-input" placeholder="Title" type="text" required />
+          <input id="author-input" placeholder="Author" type="text" required />
+          <button id="add-book-button" type="submit">Add</button>
+        </form>
+      </section>
+      <section class="contact-us-section" data-visible="false">
+        <h1 class="section-title text-center">Contact Information</h1>
+        <div class="contact-container">
+          <p class="text-center">
+            If you have any question or you just want to say "Hello"? <br />
+            You can reach us on
+          </p>
+          <div class="contact-wrapper"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container text-center">
+        <p>
+          <a target="_blank" href="https://github.com/ichsansandy/awesome-books-microverse" rel="noopener">
+            Support Us
+            <span><i class="fas fa-heart text-red"></i></span>
+          </a>
+        </p>
+        <p>
+          Copyright <span><i class="fas fa-copyright"></i></span> 2023
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
